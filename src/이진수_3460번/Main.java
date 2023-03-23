@@ -14,7 +14,8 @@ public class Main {
             // n = Integer.parseInt(binary); // 원래는 다시 int형으로 변환해서 구하려고 했으나 이부분이 오류가 나서 char[] 배열로 구했다.
             char[] bn = binary.toCharArray(); // char형 배열에 저장
             int m = bn.length;
-            // 배열은 뒤가 아닌 앞에서부터 시작하기 때문에 아래처럼 설정
+            // 문제에선 뒤에서 부터 시작( [...|3|2|1] )이라 했는데
+            // 배열은 앞에서부터 시작( [0|1|2|3|...} )하기 때문에 아래처럼 설정
             for(int j = m - 1; j >= 0; j--){
                 if (bn[j] == '1') System.out.print(m - j - 1 + " ");
             }
