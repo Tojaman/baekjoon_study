@@ -1,4 +1,4 @@
-package 지능형기차_2460번;
+package _1주차_.지능형기차_2460번;
 
 import java.util.Scanner;
 import java.util.Arrays;

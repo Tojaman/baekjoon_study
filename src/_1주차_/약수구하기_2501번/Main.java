@@ -1,4 +1,4 @@
-package 약수구하기_2501번;
+package _1주차_.약수구하기_2501번;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package 이진수_3460번;
+package _1주차_.이진수_3460번;
 import java.util.Scanner;
 
 public class Main {

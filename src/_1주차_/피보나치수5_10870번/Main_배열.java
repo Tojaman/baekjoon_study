@@ -1,4 +1,4 @@
-package 피보나치수5_10870번;
+package _1주차_.피보나치수5_10870번;
 import java.util.Scanner;
 
 // 배열을 이용한 풀이

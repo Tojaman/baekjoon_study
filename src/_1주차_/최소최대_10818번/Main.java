@@ -1,4 +1,4 @@
-package 최소최대_10818번;
+package _1주차_.최소최대_10818번;
 
 import java.util.Scanner;
 import java.util.Arrays;
