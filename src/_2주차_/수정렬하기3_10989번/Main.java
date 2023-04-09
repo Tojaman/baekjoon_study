@@ -56,13 +56,13 @@ public class Main {
     }
 }
 
-        // sort() 메소드 사용(퀵정렬)
-        // sort() 메소드는 알아서 빠른 걸로 돌려주는데 여기선 퀵정렬로 돌림
+//         sort() 메소드 사용(퀵정렬)
+//         sort() 메소드는 알아서 빠른 걸로 돌려주는데 여기선 퀵정렬로 돌림
 //        for (int m = 0; m < n; m++) {
 //            num[m] = Integer.parseInt(br.readLine()); // 입력 받아서 int형으로 변환
 //        }
 //        Arrays.sort(num); // 배열 정렬
-
+//
 //        // 배열 순서대로 출력
 //        for (int m = 0; m < n; m++) {
 //            bw.write(Integer.toString(num[m]));
