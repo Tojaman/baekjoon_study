@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
-import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -22,13 +21,14 @@ public class Main {
         for (int i = 0; i < N; i++) {
             String tmp = br.readLine();
             st = new StringTokenizer(tmp, " ");
-            people.add(new Person(Integer.parseInt(st.nextToken()), st.nextToken()));
+            people.add(new Person(Integer.parseInt(st.nextToken()), st.nextToken())); // people 리스트에 입력받은 값 추가
+                                                                                      // people의 자료형은 class라서 리스트의 각 값에 객체를 넣음
         }
         // people list 객체를 정렬한다.
         // Collection 인터페이스를 구현한 객체에 대한 정렬 수행 메소드
         Collections.sort(people);
 
-        for (Person p : people) {
+        for (Person p : people) { // for-each문 : people 배열의 모든 값을 순서대로 p에 대입해서 순서대로 반복
             bw.write(p.getAge() + " " + p.getName());
             bw.newLine();
         }
