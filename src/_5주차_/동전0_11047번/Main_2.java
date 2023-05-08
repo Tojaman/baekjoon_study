@@ -19,7 +19,11 @@ public class Main_2 {
             arr[i] = Integer.parseInt(br.readLine());
         }
 
-        int cnt = 0;
+        int cnt = 0; // 필요한 동전 개수
+        /*
+        동전의 가치가 k보다 작다면 "k - 동전" & cnt++
+        만약 k == 0이 된다면 종료
+         */
         for (int j = n-1; j >= 0; j--) {
             while (k - arr[j] >= 0) {
                 k -= arr[j];
