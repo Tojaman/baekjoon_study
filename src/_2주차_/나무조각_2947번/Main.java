@@ -21,6 +21,8 @@ public class Main {
         }
 
         // 버블정렬 알고리즘
+        // 앞 요소와 뒤 요소를 비교하여 앞 요소가 더 크다면 자리변경
+        // 한바퀴 돌면 가장 큰 요소는 맨 뒤에 가게 되므로
         for (int i = 0; i < wood.length; i++) {
             for (int j = 1; j < wood.length -i; j++) {
                 if (wood[j-1] > wood[j]) {
