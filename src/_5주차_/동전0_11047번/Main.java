@@ -22,7 +22,7 @@ public class Main {
         }
 
         int cnt = 0;
-        for (int j = m; j >= 0; j--) {
+        for (int j = m-1; j >= 0; j--) {
             if (k >= arr[j]) {
                 cnt += k / arr[j];
                 k = k % arr[j];
